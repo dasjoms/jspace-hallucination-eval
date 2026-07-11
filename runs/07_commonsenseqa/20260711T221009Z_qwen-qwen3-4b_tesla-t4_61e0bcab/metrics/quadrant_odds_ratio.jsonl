@@ -1,0 +1,1 @@
+{"acc_clean": 0.868421052631579, "acc_noisy": 0.8478260869565217, "gap": 0.020594965675057253, "odds_ratio": Infinity, "wrong_clean": -994, "correct_clean": 462, "wrong_noisy": -595, "correct_noisy": 273}

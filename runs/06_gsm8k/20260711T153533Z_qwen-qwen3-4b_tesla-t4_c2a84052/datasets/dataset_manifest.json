@@ -1,0 +1,22 @@
+{
+  "dataset_id": "gsm8k",
+  "repo": "openai/gsm8k",
+  "config": "main",
+  "split": "test",
+  "task_family": "numeric_reasoning_short",
+  "answer_format": "numeric",
+  "prompt_template_id": "numeric_v1",
+  "max_new_tokens": 200,
+  "n_total_in_split": 1319,
+  "n_requested": 2000,
+  "random_seed": 42,
+  "expected_failure_mode": "multi_step_arithmetic_failure",
+  "supports_short_answer": true,
+  "supports_multiple_choice": false,
+  "n_kept_after_dedup": 1319,
+  "n_selected": 1319,
+  "examples_with_aliases": 1319,
+  "examples_with_choices": 0,
+  "run_mode": "full",
+  "dataset_role": "dev"
+}

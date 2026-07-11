@@ -1,0 +1,6 @@
+{
+  "source_notebook_path": null,
+  "note": [
+    "SOURCE_NOTEBOOK_PATH was not set. Colab does not reliably expose the currently executed notebook path programmatically."
+  ]
+}

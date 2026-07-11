@@ -1,0 +1,22 @@
+{
+  "dataset_id": "commonsenseqa",
+  "repo": "tau/commonsense_qa",
+  "config": "default",
+  "split": "validation",
+  "task_family": "multiple_choice_commonsense",
+  "answer_format": "mc_letter",
+  "prompt_template_id": "mc_letter_v1",
+  "max_new_tokens": 4,
+  "n_total_in_split": 1221,
+  "n_requested": 2000,
+  "random_seed": 42,
+  "expected_failure_mode": "commonsense_choice_ambiguity",
+  "supports_short_answer": false,
+  "supports_multiple_choice": true,
+  "n_kept_after_dedup": 1221,
+  "n_selected": 1221,
+  "examples_with_aliases": 1221,
+  "examples_with_choices": 1221,
+  "run_mode": "full",
+  "dataset_role": "dev"
+}

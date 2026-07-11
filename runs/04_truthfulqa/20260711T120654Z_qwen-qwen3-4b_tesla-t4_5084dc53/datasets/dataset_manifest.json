@@ -1,0 +1,23 @@
+{
+  "dataset_id": "truthfulqa_gen",
+  "repo": "truthfulqa/truthful_qa",
+  "config": "generation",
+  "split": "validation",
+  "task_family": "adversarial_truthfulness_short",
+  "answer_format": "sentence",
+  "prompt_template_id": "short_answer_v1",
+  "max_new_tokens": 32,
+  "n_total_in_split": 817,
+  "n_requested": 2000,
+  "random_seed": 42,
+  "expected_failure_mode": "imitative_misconception_hallucination",
+  "supports_short_answer": true,
+  "supports_multiple_choice": false,
+  "allow_prefix_match": true,
+  "n_kept_after_dedup": 814,
+  "n_selected": 814,
+  "examples_with_aliases": 814,
+  "examples_with_choices": 0,
+  "run_mode": "full",
+  "dataset_role": "dev"
+}

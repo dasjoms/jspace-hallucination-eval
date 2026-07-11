@@ -1,0 +1,4 @@
+{"quadrant": "high_confidence__clean_workspace", "n": 502, "accuracy": 0.5577689243027888, "wrong_rate": 0.44223107569721115, "mean_confidence": 0.8408647508497732, "mean_workspace_noise": 0.9410765123905167}
+{"quadrant": "high_confidence__noisy_workspace", "n": 474, "accuracy": 0.21940928270042195, "wrong_rate": 0.7805907172995781, "mean_confidence": 0.8032167181687013, "mean_workspace_noise": 2.2730896264195146}
+{"quadrant": "low_confidence__clean_workspace", "n": 475, "accuracy": 0.4863157894736842, "wrong_rate": 0.5136842105263157, "mean_confidence": 0.45303753562240157, "mean_workspace_noise": 0.939108794535817}
+{"quadrant": "low_confidence__noisy_workspace", "n": 504, "accuracy": 0.1388888888888889, "wrong_rate": 0.8611111111111112, "mean_confidence": 0.44470814559089233, "mean_workspace_noise": 2.3159148723330527}

@@ -1,0 +1,22 @@
+{
+  "dataset_id": "triviaqa_rc_nocontext",
+  "repo": "mandarjoshi/trivia_qa",
+  "config": "rc.nocontext",
+  "split": "validation",
+  "task_family": "closed_book_factual_short",
+  "answer_format": "short_alias",
+  "prompt_template_id": "short_answer_v1",
+  "max_new_tokens": 16,
+  "n_total_in_split": 17944,
+  "n_requested": 2000,
+  "random_seed": 42,
+  "expected_failure_mode": "parametric_recall_uncertainty",
+  "supports_short_answer": true,
+  "supports_multiple_choice": false,
+  "n_kept_after_dedup": 2000,
+  "n_selected": 2000,
+  "examples_with_aliases": 2000,
+  "examples_with_choices": 0,
+  "run_mode": "full",
+  "dataset_role": "dev"
+}

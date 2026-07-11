@@ -1,0 +1,10 @@
+{
+  "analysis_status_by_regime": {
+    "strict": "completed",
+    "expanded_deterministic": "completed",
+    "primary_with_llm_judge": "completed",
+    "high_quality_primary": "completed"
+  },
+  "n_examples": 814,
+  "n_primary_included": 748
+}

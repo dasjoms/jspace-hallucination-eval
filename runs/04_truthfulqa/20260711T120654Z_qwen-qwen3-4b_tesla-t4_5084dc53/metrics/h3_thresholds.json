@@ -1,0 +1,8 @@
+{
+  "threshold_mode": "frozen_absolute",
+  "confidence_quantile": 0.5,
+  "confidence_threshold": 0.6235806941986084,
+  "noise_quantile": 0.5,
+  "noise_threshold": 1.5832966804504394,
+  "label_regime": "primary_with_llm_judge"
+}

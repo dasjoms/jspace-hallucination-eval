@@ -1,0 +1,22 @@
+{
+  "dataset_id": "popqa",
+  "repo": "akariasai/PopQA",
+  "config": "default",
+  "split": "test",
+  "task_family": "closed_book_factual_long_tail",
+  "answer_format": "short_alias",
+  "prompt_template_id": "short_answer_v1",
+  "max_new_tokens": 12,
+  "n_total_in_split": 14267,
+  "n_requested": 2000,
+  "random_seed": 42,
+  "expected_failure_mode": "long_tail_parametric_recall",
+  "supports_short_answer": true,
+  "supports_multiple_choice": false,
+  "n_kept_after_dedup": 2000,
+  "n_selected": 2000,
+  "examples_with_aliases": 2000,
+  "examples_with_choices": 0,
+  "run_mode": "full",
+  "dataset_role": "dev"
+}

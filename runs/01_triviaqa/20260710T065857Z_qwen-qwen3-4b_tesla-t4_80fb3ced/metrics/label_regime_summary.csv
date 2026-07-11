@@ -1,0 +1,5 @@
+label_regime,n,n_correct,n_wrong,accuracy
+strict,2000,169,1831,0.0845
+expanded_deterministic,2000,652,1348,0.326
+primary_with_llm_judge,1955,685,1270,0.35038363171355497
+high_quality_primary,1945,685,1260,0.35218508997429304

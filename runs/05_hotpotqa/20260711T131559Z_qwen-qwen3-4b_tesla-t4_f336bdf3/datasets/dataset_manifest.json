@@ -1,0 +1,22 @@
+{
+  "dataset_id": "hotpotqa_distractor",
+  "repo": "hotpotqa/hotpot_qa",
+  "config": "distractor",
+  "split": "validation",
+  "task_family": "multi_hop_factual",
+  "answer_format": "short_freeform",
+  "prompt_template_id": "short_answer_v1",
+  "max_new_tokens": 16,
+  "n_total_in_split": 7405,
+  "n_requested": 2000,
+  "random_seed": 42,
+  "expected_failure_mode": "multi_hop_intermediate_uncertainty",
+  "supports_short_answer": true,
+  "supports_multiple_choice": false,
+  "n_kept_after_dedup": 2000,
+  "n_selected": 2000,
+  "examples_with_aliases": 2000,
+  "examples_with_choices": 0,
+  "run_mode": "full",
+  "dataset_role": "dev"
+}

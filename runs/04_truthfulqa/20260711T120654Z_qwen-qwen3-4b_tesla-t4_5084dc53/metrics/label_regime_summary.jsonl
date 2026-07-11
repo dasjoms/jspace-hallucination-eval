@@ -1,0 +1,4 @@
+{"label_regime": "strict", "n": 814, "n_correct": 13, "n_wrong": 801, "accuracy": 0.01597051597051597}
+{"label_regime": "expanded_deterministic", "n": 814, "n_correct": 41, "n_wrong": 773, "accuracy": 0.05036855036855037}
+{"label_regime": "primary_with_llm_judge", "n": 748, "n_correct": 65, "n_wrong": 683, "accuracy": 0.08689839572192513}
+{"label_regime": "high_quality_primary", "n": 748, "n_correct": 65, "n_wrong": 683, "accuracy": 0.08689839572192513}

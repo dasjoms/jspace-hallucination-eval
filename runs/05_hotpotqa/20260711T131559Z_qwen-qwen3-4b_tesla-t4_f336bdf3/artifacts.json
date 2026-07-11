@@ -1,0 +1,634 @@
+[
+  {
+    "path": "manifest.json",
+    "type": "metadata",
+    "format": "json",
+    "description": "Final run manifest.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:57Z",
+    "bytes": 3790,
+    "sha256": "d5bb561a95ccd793c30b837b37081d0f42e042d5f380876ec56e768e8d22b9dd"
+  },
+  {
+    "path": "status.json",
+    "type": "metadata",
+    "format": "json",
+    "description": "Final run status.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:57Z",
+    "bytes": 7207,
+    "sha256": "68380cb7b731ff528e36a15be7f55213ee7b3e19a2c340290b7356540105b239"
+  },
+  {
+    "path": "config.json",
+    "type": "config",
+    "format": "json",
+    "description": "Notebook configuration at run start.",
+    "created_or_updated_at_utc": "2026-07-11T13:16:05Z",
+    "bytes": 2621,
+    "sha256": "8af373d0edc22adf4f0bc59ea68bd504b027ef4052c3364be885c2af22ce9506"
+  },
+  {
+    "path": "logs/events.jsonl",
+    "type": "log",
+    "format": "jsonl",
+    "description": "Run event log.",
+    "created_or_updated_at_utc": "2026-07-11T13:16:05Z",
+    "bytes": 1536,
+    "sha256": "dde77e1c54a35fbebe9a44a93d136af9e1af6409e0ebba58a6fe60c8cd023eb7"
+  },
+  {
+    "path": "model_lens.json",
+    "type": "metadata",
+    "format": "json",
+    "description": "Model and lens metadata.",
+    "created_or_updated_at_utc": "2026-07-11T13:18:42Z",
+    "bytes": 994,
+    "sha256": "9c880d0b5ff5567aafd62629ed09eaada374249357a049bde98b9c7771169e2a"
+  },
+  {
+    "path": "environment.json",
+    "type": "metadata",
+    "format": "json",
+    "description": "Runtime and package metadata.",
+    "created_or_updated_at_utc": "2026-07-11T13:18:42Z",
+    "bytes": 241,
+    "sha256": "533d4828373bfed33881e2bc9863c1db54419d7783e3ceefeb9e77c3c4b720ea"
+  },
+  {
+    "path": "datasets/dataset_manifest.json",
+    "type": "dataset_manifest",
+    "format": "json",
+    "description": "Dataset selection manifest.",
+    "created_or_updated_at_utc": "2026-07-11T13:19:07Z",
+    "bytes": 635,
+    "sha256": "46a080c14e59b379039992cb13a89243c192983b314e2383b227262b0ebaf2e6"
+  },
+  {
+    "path": "datasets/questions.jsonl",
+    "type": "dataset",
+    "format": "jsonl",
+    "description": "Selected examples (registry-format).",
+    "created_or_updated_at_utc": "2026-07-11T13:19:07Z",
+    "bytes": 942519,
+    "sha256": "4b1d750ab8e1a486bf68ee0e2453fbf19668be50947c8309fcd67e309c2cc3eb"
+  },
+  {
+    "path": "prompts/prompts.jsonl",
+    "type": "prompt",
+    "format": "jsonl",
+    "description": "Prompt records.",
+    "created_or_updated_at_utc": "2026-07-11T13:19:50Z",
+    "bytes": 2139796,
+    "sha256": "2946fa6726f17441885c3abf949326c6942ce89bb539373a792c2919773867eb"
+  },
+  {
+    "path": "metrics/label_judge_records.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "LLM semantic label judge records.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:52Z",
+    "bytes": 663787,
+    "sha256": "ae906a242bd6bace28cd5ad0d4948149b55aa24c9d222aabb23812e2c59937b8",
+    "rows": 494
+  },
+  {
+    "path": "generations/generations.jsonl",
+    "type": "generation",
+    "format": "jsonl",
+    "description": "Generated answers and output confidence records.",
+    "created_or_updated_at_utc": "2026-07-11T13:20:00Z",
+    "bytes": 6645863,
+    "sha256": "60c9891af70ebd5e7a6dad0e6c975eee030c09833c69521b06a6f08c85144479"
+  },
+  {
+    "path": "scans/workspace_layer_features.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Layer-level J-space features.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:52Z",
+    "bytes": 23789940,
+    "sha256": "2498261e3def342639b27d3611bb8a67626ed01b027bda044b547da49ff7e766",
+    "rows": 44000
+  },
+  {
+    "path": "scans/workspace_aggregate_features.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Per-example aggregate J-space feature table.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:50Z",
+    "bytes": 6820788,
+    "sha256": "539262cba1fe63901e8b851944ef171fe271db612ab5bddc0588030afbad9adf",
+    "rows": 2000
+  },
+  {
+    "path": "metrics/per_example_metrics.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Per-example metrics table.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:49Z",
+    "bytes": 12515957,
+    "sha256": "9c92099b8a058eaad630a9f6821eafaf7e75bdc84f7e62e35d22e70cb13e1a44",
+    "rows": 2000
+  },
+  {
+    "path": "metrics/per_example_metrics.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Per-example metrics table.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:49Z",
+    "bytes": 4944348,
+    "sha256": "4d5f9b915bf75cb199ab6752c14de6f40aa54fe476618607251ca80b74771568",
+    "rows": 2000
+  },
+  {
+    "path": "scans/workspace_aggregate_features.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Per-example aggregate J-space feature table.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:50Z",
+    "bytes": 2252343,
+    "sha256": "d6d721fb0325dd75e682b779b7f42e2f9bc045e076c6e9e342e0d5e209ad6d99",
+    "rows": 2000
+  },
+  {
+    "path": "scans/workspace_layer_features.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Layer-level J-space features.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:52Z",
+    "bytes": 11211057,
+    "sha256": "e4fd01c9948609c129d89a1468da0813f8d0eceaf4be8360d32bb1cedfff5057",
+    "rows": 44000
+  },
+  {
+    "path": "metrics/label_judge_records.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "LLM semantic label judge records.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:52Z",
+    "bytes": 570479,
+    "sha256": "0538ff15729fc545cfda5c57d0d14c521fe3e1a7f1c678a4bb4a2890f09be2a3",
+    "rows": 494
+  },
+  {
+    "path": "metrics/label_regime_summary.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Summary of strict/expanded/primary label regimes.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:52Z",
+    "bytes": 223,
+    "sha256": "4bcd512050d4a21ebc195908c6ae588bea634405553d61cbde1d6c4def35be55",
+    "rows": 4
+  },
+  {
+    "path": "metrics/label_regime_summary.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Summary of strict/expanded/primary label regimes.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:52Z",
+    "bytes": 441,
+    "sha256": "44709ffe98a619503acd7bd42f9c77b77f442c8cd901b477e0fc6b4e24b53d22",
+    "rows": 4
+  },
+  {
+    "path": "metrics/feature_descriptive_stats.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Primary-label correct-vs-wrong descriptive feature statistics.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:52Z",
+    "bytes": 1310,
+    "sha256": "00d0874ac37c5603862cc943d5f7dfa8bb12a56add898fcb15717ebe1a4f77ab",
+    "rows": 10
+  },
+  {
+    "path": "metrics/feature_descriptive_stats.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Primary-label correct-vs-wrong descriptive feature statistics.",
+    "created_or_updated_at_utc": "2026-07-11T15:08:52Z",
+    "bytes": 2318,
+    "sha256": "50fe81c9bdc96af5700049fbc50a8529f7ff918a1302ae21d7580a221f6fe18f",
+    "rows": 10
+  },
+  {
+    "path": "metrics/auc_scores.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Cross-validated AUC scores by feature set and label regime.",
+    "created_or_updated_at_utc": "2026-07-11T15:09:21Z",
+    "bytes": 12365,
+    "sha256": "bb3819898b4ddaf89ad5dd697b41ccd917ca0f6cd3d6ad96725ca36758abd709",
+    "rows": 56
+  },
+  {
+    "path": "metrics/auc_scores.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Cross-validated AUC scores by feature set and label regime.",
+    "created_or_updated_at_utc": "2026-07-11T15:09:21Z",
+    "bytes": 21138,
+    "sha256": "c607d92f6e339f3d3ad3a8acb25f6f5f1ea1fa67e34366130a71c5266a1639c3",
+    "rows": 56
+  },
+  {
+    "path": "metrics/cv_predictions.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Out-of-fold predictions by label regime and feature set.",
+    "created_or_updated_at_utc": "2026-07-11T15:09:22Z",
+    "bytes": 10431336,
+    "sha256": "5012a9259c3ddfe37be327bf9f925b51e050c5e49b2c8ae3ba89b677f416452a",
+    "rows": 108598
+  },
+  {
+    "path": "metrics/cv_predictions.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Out-of-fold predictions by label regime and feature set.",
+    "created_or_updated_at_utc": "2026-07-11T15:09:23Z",
+    "bytes": 20856679,
+    "sha256": "0c6cc88f54923f8d5e8c636b68018ecdca46cb99b865ac3dc61149d6798a2848",
+    "rows": 108598
+  },
+  {
+    "path": "metrics/auc_bootstrap_ci.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Bootstrap confidence intervals for out-of-fold AUC metrics.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:52Z",
+    "bytes": 8926,
+    "sha256": "78c3553e9c71cce79618f8a3183be4ad0aeebb5e0af40759b66b3e3a2371b226",
+    "rows": 56
+  },
+  {
+    "path": "metrics/auc_bootstrap_ci.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Bootstrap confidence intervals for out-of-fold AUC metrics.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:52Z",
+    "bytes": 17932,
+    "sha256": "5705d3208358c55a0700cd4f369518a479a862e1e35e317306283a8defb3c292",
+    "rows": 56
+  },
+  {
+    "path": "metrics/auc_permutation_sanity.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Label-shuffle sanity checks for out-of-fold AUC metrics.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:52Z",
+    "bytes": 7024,
+    "sha256": "78768182b95fda6246ef12333db2494c75642a0a627e17a6333127940a10dee7",
+    "rows": 56
+  },
+  {
+    "path": "metrics/auc_permutation_sanity.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Label-shuffle sanity checks for out-of-fold AUC metrics.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:52Z",
+    "bytes": 15366,
+    "sha256": "73b522176857fffa7c27d98f80e526880a7988a36c5ae3949bfd0c218fc16d8c",
+    "rows": 56
+  },
+  {
+    "path": "metrics/logistic_regression_coefficients.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Final logistic regression coefficients.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:52Z",
+    "bytes": 1578,
+    "sha256": "cfef8e8376dea574473ccffeedd546873b7da8ab7552172342b720d5bb7e8a9d",
+    "rows": 18
+  },
+  {
+    "path": "metrics/logistic_regression_coefficients.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Final logistic regression coefficients.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:52Z",
+    "bytes": 2927,
+    "sha256": "ab57480aa4f6b8bea56ee75d18a0d24bf400b8b1bac5090599b0364ea5015c20",
+    "rows": 18
+  },
+  {
+    "path": "metrics/analysis_status.json",
+    "type": "metrics",
+    "format": "json",
+    "description": "Predictive analysis status.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:52Z",
+    "bytes": 245,
+    "sha256": "40921506170baa3ed2878e4bf2edbb533a48b31b307c0a8fd51ecad01dc39348"
+  },
+  {
+    "path": "metrics/quadrant_analysis.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "H.3 high/low confidence by clean/noisy workspace quadrant analysis using primary labels.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:53Z",
+    "bytes": 488,
+    "sha256": "cb53b161b0c9b8c9ea2b584b96a99c8d551598e5bff01a94e0999587cdb15f23",
+    "rows": 4
+  },
+  {
+    "path": "metrics/quadrant_analysis.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "H.3 high/low confidence by clean/noisy workspace quadrant analysis using primary labels.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:53Z",
+    "bytes": 800,
+    "sha256": "f0bb243ef47a54c3de56ffb5d4a061a74bd0fe76e8007aa328643347a834412a",
+    "rows": 4
+  },
+  {
+    "path": "metrics/h3_thresholds.json",
+    "type": "metrics",
+    "format": "json",
+    "description": "H.3 quadrant thresholds.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:53Z",
+    "bytes": 227,
+    "sha256": "2f78196f7618b0da4ea3edfe4dd4f52c0c9dba46fa01909b087bece67ab43f53"
+  },
+  {
+    "path": "examples/confident_wrong_noisy.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Selected examples: confident_wrong_noisy",
+    "created_or_updated_at_utc": "2026-07-11T15:12:53Z",
+    "bytes": 31323,
+    "sha256": "d579b58d25313617b08c9477a759ef7748c21848a97e39a637f846358154b28b",
+    "rows": 10
+  },
+  {
+    "path": "examples/confident_wrong_noisy.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Selected examples: confident_wrong_noisy",
+    "created_or_updated_at_utc": "2026-07-11T15:12:53Z",
+    "bytes": 68579,
+    "sha256": "710310dcbb8dfbddb66c45021285c42688821b4872495eb71218ab895e19832c",
+    "rows": 10
+  },
+  {
+    "path": "examples/confident_wrong_noisy.md",
+    "type": "example_report",
+    "format": "md",
+    "description": "Markdown selected examples: confident_wrong_noisy",
+    "created_or_updated_at_utc": "2026-07-11T15:12:53Z",
+    "bytes": 13224,
+    "sha256": "83ce8e592b85d44cee7ed2b3b73df230f65ffc0eb44579b42b8ae6cdd8aadbcd"
+  },
+  {
+    "path": "examples/confident_wrong_clean_blindspots.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Selected examples: confident_wrong_clean_blindspots",
+    "created_or_updated_at_utc": "2026-07-11T15:12:53Z",
+    "bytes": 30135,
+    "sha256": "4ba5bf243c61f61541527cea999188a459c08f17abead7c774fcae7b58653c6a",
+    "rows": 10
+  },
+  {
+    "path": "examples/confident_wrong_clean_blindspots.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Selected examples: confident_wrong_clean_blindspots",
+    "created_or_updated_at_utc": "2026-07-11T15:12:53Z",
+    "bytes": 67405,
+    "sha256": "8dfb109c2df6706aa03d9170251be0adf886277fbca4520e395cba70a6ff8609",
+    "rows": 10
+  },
+  {
+    "path": "examples/confident_wrong_clean_blindspots.md",
+    "type": "example_report",
+    "format": "md",
+    "description": "Markdown selected examples: confident_wrong_clean_blindspots",
+    "created_or_updated_at_utc": "2026-07-11T15:12:53Z",
+    "bytes": 12112,
+    "sha256": "5ccf5c26a043a6542399ca5d6b91a21342768cc988718318e1588d4c600fbe4d"
+  },
+  {
+    "path": "examples/confident_correct_clean.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Selected examples: confident_correct_clean",
+    "created_or_updated_at_utc": "2026-07-11T15:12:54Z",
+    "bytes": 30526,
+    "sha256": "ef38d68092459f786498b99f334cbea543b026b516b2fc44a3ef6c4a72983fac",
+    "rows": 10
+  },
+  {
+    "path": "examples/confident_correct_clean.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Selected examples: confident_correct_clean",
+    "created_or_updated_at_utc": "2026-07-11T15:12:54Z",
+    "bytes": 67792,
+    "sha256": "b7d171c59f381c3cc3bb46f19a3a5a2b483724cc72ff00b7256a3f285d7b5464",
+    "rows": 10
+  },
+  {
+    "path": "examples/confident_correct_clean.md",
+    "type": "example_report",
+    "format": "md",
+    "description": "Markdown selected examples: confident_correct_clean",
+    "created_or_updated_at_utc": "2026-07-11T15:12:54Z",
+    "bytes": 10811,
+    "sha256": "172a57d2d41df0e4583e46412ca7f126a383a9a31f74dc517cd97e182813cf32"
+  },
+  {
+    "path": "examples/possible_label_noise.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Selected examples: possible_label_noise",
+    "created_or_updated_at_utc": "2026-07-11T15:12:54Z",
+    "bytes": 30020,
+    "sha256": "0548bba875ca8b22ba38ea078783ab86fe68606a92d374ff237a20946136af4d",
+    "rows": 10
+  },
+  {
+    "path": "examples/possible_label_noise.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Selected examples: possible_label_noise",
+    "created_or_updated_at_utc": "2026-07-11T15:12:54Z",
+    "bytes": 66067,
+    "sha256": "f662df157d322f4adecc6fce7d50106f7781151c08370d8f689e8c9bd0cff9ec",
+    "rows": 10
+  },
+  {
+    "path": "examples/possible_label_noise.md",
+    "type": "example_report",
+    "format": "md",
+    "description": "Markdown selected examples: possible_label_noise",
+    "created_or_updated_at_utc": "2026-07-11T15:12:54Z",
+    "bytes": 11257,
+    "sha256": "f9976a3cb2d88575a2cce49be78a1263d87792bb2aa5c4d83f44b800e7a56c9f"
+  },
+  {
+    "path": "plots/roc_curves.png",
+    "type": "plot",
+    "format": "png",
+    "description": "ROC curves for wrong-answer prediction.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:55Z",
+    "bytes": 105122,
+    "sha256": "82410696d06c8ca670380e05d4dd7c2173b8b3feb4ef425fb31ea3bf3d2677e9"
+  },
+  {
+    "path": "plots/entropy_vs_correctness.png",
+    "type": "plot",
+    "format": "png",
+    "description": "Workspace noise by correctness boxplot.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:55Z",
+    "bytes": 31307,
+    "sha256": "f476298999f86ca5cb73cb8024ac9d2016d43271d2136cf451c076755a0c9689"
+  },
+  {
+    "path": "plots/confidence_workspace_quadrants.png",
+    "type": "plot",
+    "format": "png",
+    "description": "Accuracy by confidence/workspace quadrant.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:55Z",
+    "bytes": 72870,
+    "sha256": "ae7653ed7c677350156912de368a4bff7c9dbbe8910ad1202c7b2d3445235207"
+  },
+  {
+    "path": "metrics/aggregate_metrics.json",
+    "type": "metrics",
+    "format": "json",
+    "description": "Aggregate experiment metrics.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 28691,
+    "sha256": "9f9acdf4e8c9187a44535845fd16d050f60cca02d90e9726c359ce7992c6d4b8"
+  },
+  {
+    "path": "thresholds.json",
+    "type": "config",
+    "format": "json",
+    "description": "Thresholds and layer-band settings.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 646,
+    "sha256": "f0d63c84fffc2d4d690487c2b15f27d4f546355ab8f3d01f34f9c6d318dcb7cf"
+  },
+  {
+    "path": "metrics/quadrant_odds_ratio.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Odds Ratio and Accuracy Gap for High-Conf Noisy vs Clean.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 168,
+    "sha256": "011ab2573a231f15806500492172e1565983637672b4c07bcb040044b7c04a70",
+    "rows": 1
+  },
+  {
+    "path": "metrics/quadrant_odds_ratio.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Odds Ratio and Accuracy Gap for High-Conf Noisy vs Clean.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 206,
+    "sha256": "5fa20654e019a798a3e46d215d1ab80211b0c3784a064d74adc7b812db7a3f96",
+    "rows": 1
+  },
+  {
+    "path": "metrics/high_confidence_noise_deciles.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Noise decile stratification of high-confidence predictions.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 664,
+    "sha256": "2270dd3a5c053ca88abeb322a035505a6d2b5b55a1d3ef1cd56536f53b0d84e4",
+    "rows": 10
+  },
+  {
+    "path": "metrics/high_confidence_noise_deciles.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Noise decile stratification of high-confidence predictions.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 1297,
+    "sha256": "f19302d8546345ed107a8af5c62e37994154e58605891bee0b76be37125c1de7",
+    "rows": 10
+  },
+  {
+    "path": "metrics/routing_at_budget.csv",
+    "type": "table",
+    "format": "csv",
+    "description": "Routing escalation recall/precision across budgets.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 586,
+    "sha256": "135d03378e6bbea6317079e257907d2077aa236dcd0704ade255a527a85971e4",
+    "rows": 4
+  },
+  {
+    "path": "metrics/routing_at_budget.jsonl",
+    "type": "table",
+    "format": "jsonl",
+    "description": "Routing escalation recall/precision across budgets.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 1056,
+    "sha256": "7937c7f3ac66ad708e5b56a15f69268bb289aaef8761608a0fba66305b8c6b43",
+    "rows": 4
+  },
+  {
+    "path": "brief_single_feature.md",
+    "type": "brief",
+    "format": "md",
+    "description": "Rec 2: single-feature (parsimonious) AUC callout for AGENT_BRIEF.md.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 355,
+    "sha256": "5c4425e05e88f8d44a6dc9a05a3c1252dd80d1ae7c912b235601f319534c9d18"
+  },
+  {
+    "path": "README.md",
+    "type": "report",
+    "format": "md",
+    "description": "Run README.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 2600,
+    "sha256": "814b41199e761e2b465d119af94d8d6e55948955b39591bbbe6931a8c41e7b93"
+  },
+  {
+    "path": "AGENT_BRIEF.md",
+    "type": "agent_brief",
+    "format": "md",
+    "description": "Concise briefing for AI agents and reviewers.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 37074,
+    "sha256": "787fbec076d73bc0fc8a8ff7dc5305cf64071fa90dba426c184f96d49d387f3b"
+  },
+  {
+    "path": "FULL_REPORT.md",
+    "type": "report",
+    "format": "md",
+    "description": "Full plaintext report.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 39301,
+    "sha256": "6a07d5b2ed4ef2efebf719063d9b311980c72f86ef7fd1c9700a6ed71ea672e0"
+  },
+  {
+    "path": "prompts/prompts.md",
+    "type": "prompt_report",
+    "format": "md",
+    "description": "Human-readable prompt records.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 661564,
+    "sha256": "9b82170cc754aefd50248edf6fce0d5cb582ee3d41a8a527e56d580d0a12c683"
+  },
+  {
+    "path": "notebook/notebook_capture_note.md",
+    "type": "notebook_note",
+    "format": "md",
+    "description": "Notebook capture note.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:56Z",
+    "bytes": 122,
+    "sha256": "5ab0b7e43b9ec1d8e265283f74e00ae929ee271675757c97bff7b848e8ef8ad4"
+  },
+  {
+    "path": "notebook/notebook_metadata.json",
+    "type": "notebook_metadata",
+    "format": "json",
+    "description": "Notebook capture metadata.",
+    "created_or_updated_at_utc": "2026-07-11T15:12:57Z",
+    "bytes": 177,
+    "sha256": "658a64a4b344c007ece7847ed0e26b94319937587c0c94bd82d6483e266e0800"
+  }
+]
